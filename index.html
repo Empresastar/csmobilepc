@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>JS-GO: Arena Infinita</title>
+</head>
+<body style="background: #000;">
+    <script>
+        const isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
+        if (isMobile) {
+            window.location.href = "mobile.html";
+        } else {
+            window.location.href = "pc.html";
+        }
+    </script>
+</body>
+</html>
